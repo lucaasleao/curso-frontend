@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+	<head>
+		
+		<title> HTML - Formulário Fale Conosco </title>
+		<meta charset=" UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./formularios.css">
+	</head>
+
+
+	<body>
+		<header>
+			<h2>Formulário de avalição</h2>
+			<ul class="menu">
+				<li>
+					<a href="./home.html"> HOME </a>
+				</li>
+			</ul>
+		</header>
+		<section class="cont">
+			<h2 class="titulosec">Preencha o formulário de avaliação</h2>
+			<form method="post">
+				<div>
+					<label for="nome" >Nome</label>	<br>
+					<input class="input" type="text" name="nome" id="nome" placeholder="digite seu nome"> 
+				</div>
+
+				<div> 
+					<label for="email" >E-mail </label><br>
+					<input class="input"  type="email" name="email" id="email" placeholder="Digite seu email">
+				</div>
+
+				<div>
+					<label for="mensagem" >Mensagem</label> <br>
+					<textarea class="input"  name="mensagem" id="mensagem" rows="5" > </textarea>
+				</div>
+
+				<div>
+					<p>
+						<label>Qual café voçê costuma consumir?</label><br>
+						<input type="checkbox" name="Linguagens" value="html"> cappuccino
+						<input type="checkbox" name="Linguagens" value="css"> Irish coffee
+						<input type="checkbox" name="Linguagens" value="JAVASCRIPT"> espresso
+						<input type="checkbox" name="Linguagens" value="JAVASCRIPT"> caffè latte
+						<input type="checkbox" name="Linguagens" value="JAVASCRIPT"> macchiato
+					</p>
+
+				</div>
+
+				<div>
+					<p>
+						<label>Quais a frequência?</label><br>
+						<input type="radio" name="Linguagens" value="html"> Alto
+						<input type="radio" name="Linguagens" value="css"> Regular
+						<input type="radio" name="Linguagens" value="JAVASCRIPT"> Baixo
+					</p>
+
+				</div>
+
+				<div>
+					<label> Como Você avalia o serviço? </label><br>
+					<select>  
+						<option value="Bom"> Bom </option>
+						<option value="Regular" selected > Médio </option>
+						<option value="Ruim"> Ruim </option>
+
+					</select>
+
+
+				</div>
+
+				<div class="menu">
+					<h3 class="cont1"><a href="./06-formularios.html">Submit</a></h3>
+				</div>
+			</form>
+		
+		</section>
+
+		<footer>Desenvolvido por Lucas H.</footer>
+		
+	</body>
+</html>

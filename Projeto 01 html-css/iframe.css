@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #fbf3e7;
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+
+  justify-content: space-between;
+
+  box-shadow: 0px 5px 20px #000;
+
+  padding: 10px;
+
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: #d9d9c8;
+
+  flex-wrap: wrap;
+}
+
+.cont{
+
+  width: 100%;
+  height: 600px;
+
+  padding: 100px;
+  
+}
+  
+  .menu{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    color: aliceblue;
+  }
+  .menu li a:hover {
+    background-color: rgb(73, 69, 69) ;
+    border-radius: 10px ;
+  }
+
+  footer {
+    background-color: #d9d9c8;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+iframe{
+  padding: 30px;
+  height: 400px;
+  width: 100%;
+}
+
+.col{ display: flex;
+    width: 30%;
+    float: left;
+
+}
+
+
+    /* iPad air 820w x 1180h */
+    @media(max-width: 821px){
+      .cont{
+        width: 100%;
+        height: 1067px;
+        padding: 0px;
+        max-width: 1200px;
+
+        margin: 0 auto;
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+      }
+      .col{
+        flex: 1 1 300px;
+        margin: 10px;
+      }
+      }
+
+    /*galaxy s20 pro 412w x 915h*/
+    @media(max-width: 413px){
+      body{
+        width: 100%;
+      }
+      .cont{
+        height: 1300px;
+        flex-wrap: wrap;
+       }
+       iframe{
+        width: 100%;
+       }
+    }
+  

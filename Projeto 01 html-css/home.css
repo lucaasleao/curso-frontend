@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #fbf3e7;
+    overflow-x: hidden;
+}
+footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    background-color: #d9d9c8;
+    box-shadow: 0px 5px 20px #000;
+  }
+  
+  header{
+    display: flex;
+
+    justify-content: space-between;
+
+    box-shadow: 0px 5px 20px #000;
+
+    padding: 10px;
+
+    align-items: center;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: #d9d9c8;
+
+    flex-wrap: wrap;
+  }
+
+  
+  h2{
+    color: aliceblue;
+  }
+
+  .cont1{
+    padding: 10px;
+  }
+
+  .cont h1{
+    font-size: 60px;
+    text-align: center;
+  }
+  .cont h2{
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+  .cont h3{
+    text-align: center;
+  
+}
+  .cont h3 a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+.cont h3 a:hover {
+  background-color: rgb(73, 69, 69) ;
+  border-radius: 10px ;
+  
+}
+.cont{
+
+    width: 100%;
+    height: 600px;
+
+    padding: 100px;
+   
+    
+}
+
+  .menu{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    color: aliceblue;
+  }
+  .menu li a:hover {
+    background-color: rgb(73, 69, 69) ;
+    border-radius: 10px ;
+  }
+
+    /* iPad air 820w x 1180h */
+    @media(max-width: 821px){
+      .cont{
+        width: 100%;
+        height: 1067px;
+      }
+    }
+
+    /*galaxy s20 pro 412w x 915h*/
+    @media(max-width: 413px){
+      body{
+        width: 100%;
+      }
+      header{
+        height: 100%;
+      }
+      .cont{
+        height: 803px;
+        padding: 30px;
+      
+       }
+
+       .cont1{
+        padding: 10px;
+      }
+    
+      .cont h1{
+        font-size: 30px;
+        text-align: center;
+      }
+      .cont h2{
+        font-size: 15px;
+        color: #000000;
+        text-align: center;
+    }
+      .cont h3{
+        text-align: center;
+      
+    }
+  
+       
+    }
+
+
+  
+
+
+

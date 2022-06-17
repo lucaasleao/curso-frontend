@@ -1,0 +1,82 @@
+* {box-sizing: border-box;
+}
+h3{
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+  body{
+      background-color: #fbf3e7;
+  }
+
+  label{
+    display: block;
+    width: 50%;
+
+}
+
+  .bloco-01{
+    background-color: #fbf3e7;
+    box-shadow: 0 1px 0 0;
+    border: 0 none;
+    outline: 0;
+    height: 5px;
+    
+  }  
+  .esp{
+      padding: 10px;
+  }
+  .esp1{
+    padding: 10px;  
+  }
+  .esp2{
+    padding: 10px;
+  }
+
+  form {
+      border: 2px solid #000000;
+      width: 700px;
+      height: 350px;
+      padding: 20px;
+  }
+
+  body section div p:first-child{
+      font-weight: bold;
+  }
+ .cont{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     column-gap: 250px;
+     width: 50%;
+ }
+
+
+ .img1{
+     width: 30%;
+     position: absolute;
+     left: 800px;
+     top: 200px;
+ }
+ .botao{
+    position: absolute;
+    bottom: 310px;
+    left: 40px;
+    border-radius: 7%;
+    width: 10%;
+    height: 5%;
+    background-color: #000000;
+    color: white;
+ }
+ .icon{
+     width: 15%;
+     padding: 5px;  
+ }
+ .mov{
+     position: absolute;
+     width: 10%;
+     right: 920px;
+     bottom: 330px;
+
+ }
