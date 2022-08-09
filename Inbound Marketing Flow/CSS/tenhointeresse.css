@@ -1,0 +1,9 @@
+
+.cog-branding--minimal
+.cog-branding__powered, :root:root:root:root:root:root .cog-branding--minimal
+.cog-branding__powered, html .cog-branding--minimal, html .cog-branding--minimal
+*, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root
+.cog-branding--minimal *{
+
+    display:none !important;
+}
