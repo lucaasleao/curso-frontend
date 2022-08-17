@@ -1,0 +1,16 @@
+1 - homem levanta 
+2 - homem pega a cabra e coloca no barco
+3 - atravessa o rio
+4 - coloca a cabra na segunda margem
+5 - volta para a primeira margem atravez do rio
+6 - pega o lobo e coloca no barco
+7 - atravesa o rio
+8 - troca o lobo pela cabra na segunda margem
+9 - atravesa o rio
+10 - troca a alfafa pela cabra na primeira margem
+11 - atravessa o rio
+12 - deixa a alfafa junto com o lobo na segunda margem
+13 - atravessa o rio
+14 - pego a cabra na primeira margem
+15 - atravessa o rio
+16 - deixa a cabra junto com o lobo e a alfafa na segunda margem
